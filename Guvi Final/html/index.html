@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="D:\Guvi Final\css\signstyles.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Signup - Fit X 90</title>
+
+</head>
+<body>
+  
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-3">Signup - Fit X 90</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-sm-6 align-self-center">
+                <form id="form_signup" novalidate="novalidate">
+                    <form method="POST" action="signup.php">
+                    <div class="card">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <h5 class="card-title m-0">
+                                    SIGNUP
+                                </h5>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="form-row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="signup_firstname">First Name</label>
+                                            <div class="input-group">
+                                                <span class="input-group-addon">
+                                                    
+                                                </span>
+                                                <input type="text" id="signup_firstname" name="signup_firstname" class="form-control" placeholder="Firstname" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="signup_lastname">Last Name</label>
+                                            <div class="input-group">
+                                                <span class="input-group-addon">
+
+                                                </span>
+                                                <input type="text" id="signup_lastname" name="signup_lastname" class="form-control" placeholder="Lastname" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="signup_email">Email address</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon">
+                                            
+                                        </span>
+                                        <input type="email" id="signup_email" name="signup_email" class="form-control" placeholder="Email" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="signup_newpassword">Password</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon">
+                                            
+                                        </span>
+                                        <input type="newpassword" id="signup_newpassword" name="signup_newpassword" class="form-control" placeholder="Password" />
+                                    </div>
+                                </div>  
+                                <div class="form-group">
+                                    <label for="signup_cnfpassword">Confirm Password</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon">
+                                           
+                                        </span>
+                                        <input type="password" id="signup_cnfpassword" name="signup_cnfpassword" class="form-control" placeholder="Confirm Password" />
+                                    </div>
+                                </div>                                  
+                            </li>
+                            <div class="center">
+                                <input type="submit" value="signup" class="submit-btn" />
+                              </div>
+                              <a href="D:\Guvi Final\html\logindex.html">
+                                <p>Already a Member ? Log in</p>
+                             </a>
+                            </div>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+            
+            </div>
+        </div>
+    </div>
+
+	<script src="D:\Guvi Final\js\app.js"></script>
+</body>
+</html>
